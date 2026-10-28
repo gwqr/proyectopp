@@ -1,0 +1,262 @@
+{
+  "04-ACCION DE MANTENIM": {
+    "csv": "export\\csv\\04-ACCION_DE_MANTENIM.csv",
+    "row_count": 15,
+    "binary_columns": {}
+  },
+  "04-ACCION DE MANTENIM_2024": {
+    "csv": "export\\csv\\04-ACCION_DE_MANTENIM_2024.csv",
+    "row_count": 15,
+    "binary_columns": {}
+  },
+  "05-CONDICION EXISTENTE": {
+    "csv": "export\\csv\\05-CONDICION_EXISTENTE.csv",
+    "row_count": 37,
+    "binary_columns": {}
+  },
+  "05-CONDICION EXISTENTE_2024": {
+    "csv": "export\\csv\\05-CONDICION_EXISTENTE_2024.csv",
+    "row_count": 37,
+    "binary_columns": {}
+  },
+  "06-EJECUTA MANTENIM": {
+    "csv": "export\\csv\\06-EJECUTA_MANTENIM.csv",
+    "row_count": 6,
+    "binary_columns": {}
+  },
+  "07-FREC MANTPREV": {
+    "csv": "export\\csv\\07-FREC_MANTPREV.csv",
+    "row_count": 10,
+    "binary_columns": {}
+  },
+  "08-RECOMENDACIONES": {
+    "csv": "export\\csv\\08-RECOMENDACIONES.csv",
+    "row_count": 5,
+    "binary_columns": {}
+  },
+  "09-REGISTRO DE DEFINICION MANTENIM PREVENTIVOS": {
+    "csv": "export\\csv\\09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS.csv",
+    "row_count": 43,
+    "binary_columns": {
+      "GRAFICO": {
+        "non_null": 31,
+        "extracted": 31,
+        "kinds": {
+          "bmp": 31
+        },
+        "unknown": 0
+      }
+    }
+  },
+  "1-001 MAQUINA": {
+    "csv": "export\\csv\\1-001_MAQUINA.csv",
+    "row_count": 65,
+    "binary_columns": {
+      "IMAGEN": {
+        "non_null": 65,
+        "extracted": 65,
+        "kinds": {
+          "bmp": 45,
+          "jpg": 20
+        },
+        "unknown": 0
+      }
+    }
+  },
+  "1-002 DATOS DE REPUESTOS": {
+    "csv": "export\\csv\\1-002_DATOS_DE_REPUESTOS.csv",
+    "row_count": 85,
+    "binary_columns": {}
+  },
+  "1-003 MAQUINAS-MOTORES": {
+    "csv": "export\\csv\\1-003_MAQUINAS-MOTORES.csv",
+    "row_count": 66,
+    "binary_columns": {}
+  },
+  "1-004 Proveedores": {
+    "csv": "export\\csv\\1-004_Proveedores.csv",
+    "row_count": 7,
+    "binary_columns": {}
+  },
+  "1-005 EQUIPO DE TRABAJO": {
+    "csv": "export\\csv\\1-005_EQUIPO_DE_TRABAJO.csv",
+    "row_count": 10,
+    "binary_columns": {}
+  },
+  "1-006 REGISTRO DE LOS MANTENIMIENTOS": {
+    "csv": "export\\csv\\1-006_REGISTRO_DE_LOS_MANTENIMIENTOS.csv",
+    "row_count": 5,
+    "binary_columns": {
+      "Imagen om": {
+        "non_null": 3,
+        "extracted": 3,
+        "kinds": {
+          "jpg": 3
+        },
+        "unknown": 0
+      }
+    }
+  },
+  "11-RESP DEFINICION MANTENIMIENTO": {
+    "csv": "export\\csv\\11-RESP_DEFINICION_MANTENIMIENTO.csv",
+    "row_count": 3,
+    "binary_columns": {}
+  },
+  "12-RUBRO DESPERFECTO": {
+    "csv": "export\\csv\\12-RUBRO_DESPERFECTO.csv",
+    "row_count": 4,
+    "binary_columns": {}
+  },
+  "13-Sectores": {
+    "csv": "export\\csv\\13-Sectores.csv",
+    "row_count": 11,
+    "binary_columns": {}
+  },
+  "14-TAREA MANTPREV": {
+    "csv": "export\\csv\\14-TAREA_MANTPREV.csv",
+    "row_count": 11,
+    "binary_columns": {}
+  },
+  "15-TIPO DE MANTENIM": {
+    "csv": "export\\csv\\15-TIPO_DE_MANTENIM.csv",
+    "row_count": 3,
+    "binary_columns": {}
+  },
+  "16-TIPO DE REPUESTOS": {
+    "csv": "export\\csv\\16-TIPO_DE_REPUESTOS.csv",
+    "row_count": 63,
+    "binary_columns": {}
+  },
+  "17-CARACTER DEL MANTENIM": {
+    "csv": "export\\csv\\17-CARACTER_DEL_MANTENIM.csv",
+    "row_count": 2,
+    "binary_columns": {}
+  },
+  "18-CONDICIONES DE SEGURIDAD": {
+    "csv": "export\\csv\\18-CONDICIONES_DE_SEGURIDAD.csv",
+    "row_count": 33,
+    "binary_columns": {}
+  },
+  "20-funciones Habilitaciones": {
+    "csv": "export\\csv\\20-funciones_Habilitaciones.csv",
+    "row_count": 3,
+    "binary_columns": {
+      "Archivo": {
+        "non_null": 0,
+        "extracted": 0,
+        "kinds": {},
+        "unknown": 0
+      }
+    }
+  },
+  "21-REGISTR DE INSTRUMENTOS": {
+    "csv": "export\\csv\\21-REGISTR_DE_INSTRUMENTOS.csv",
+    "row_count": 6,
+    "binary_columns": {}
+  },
+  "22-Normas": {
+    "csv": "export\\csv\\22-Normas.csv",
+    "row_count": 6,
+    "binary_columns": {
+      "AHIVO PDF": {
+        "non_null": 0,
+        "extracted": 0,
+        "kinds": {},
+        "unknown": 0
+      }
+    }
+  },
+  "23-Asignaturas": {
+    "csv": "export\\csv\\23-Asignaturas.csv",
+    "row_count": 47,
+    "binary_columns": {}
+  },
+  "24-Rotaciones Taller": {
+    "csv": "export\\csv\\24-Rotaciones_Taller.csv",
+    "row_count": 3,
+    "binary_columns": {}
+  },
+  "25-MARCA DE MOTORES": {
+    "csv": "export\\csv\\25-MARCA_DE_MOTORES.csv",
+    "row_count": 26,
+    "binary_columns": {}
+  },
+  "26-TIPO DE MAQUINAS": {
+    "csv": "export\\csv\\26-TIPO_DE_MAQUINAS.csv",
+    "row_count": 27,
+    "binary_columns": {}
+  },
+  "27-CAMBIOS MEJORAS DE LA TABLA": {
+    "csv": "export\\csv\\27-CAMBIOS_MEJORAS_DE_LA_TABLA.csv",
+    "row_count": 4,
+    "binary_columns": {}
+  },
+  "28-Tabla Capacitación": {
+    "csv": "export\\csv\\28-Tabla_Capacitación.csv",
+    "row_count": 3,
+    "binary_columns": {}
+  },
+  "29-Aplicaciones web": {
+    "csv": "export\\csv\\29-Aplicaciones_web.csv",
+    "row_count": 33,
+    "binary_columns": {}
+  },
+  "30-COSTOS DE LOS OM": {
+    "csv": "export\\csv\\30-COSTOS_DE_LOS_OM.csv",
+    "row_count": 1,
+    "binary_columns": {}
+  },
+  "32- Rotaciones Taller": {
+    "csv": "export\\csv\\32-_Rotaciones_Taller.csv",
+    "row_count": 16,
+    "binary_columns": {}
+  },
+  "33-ACTIVIDADES DE TALLER": {
+    "csv": "export\\csv\\33-ACTIVIDADES_DE_TALLER.csv",
+    "row_count": 6,
+    "binary_columns": {
+      "IMAGENES": {
+        "non_null": 1,
+        "extracted": 1,
+        "kinds": {
+          "bmp": 1
+        },
+        "unknown": 0
+      }
+    }
+  },
+  "34-Ingresos": {
+    "csv": "export\\csv\\34-Ingresos.csv",
+    "row_count": 3,
+    "binary_columns": {}
+  },
+  "35-Compras": {
+    "csv": "export\\csv\\35-Compras.csv",
+    "row_count": 10,
+    "binary_columns": {}
+  },
+  "Copia de 1-004 Proveedores": {
+    "csv": "export\\csv\\Copia_de_1-004_Proveedores.csv",
+    "row_count": 0,
+    "binary_columns": {}
+  },
+  "Copia de 10-REGISTRO DE LOS MANTENIMIENTOS": {
+    "csv": "export\\csv\\Copia_de_10-REGISTRO_DE_LOS_MANTENIMIENTOS.csv",
+    "row_count": 2,
+    "binary_columns": {
+      "Imagen om": {
+        "non_null": 2,
+        "extracted": 2,
+        "kinds": {
+          "jpg": 2
+        },
+        "unknown": 0
+      }
+    }
+  },
+  "Switchboard Items": {
+    "csv": "export\\csv\\Switchboard_Items.csv",
+    "row_count": 1,
+    "binary_columns": {}
+  }
+}

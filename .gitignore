@@ -1,0 +1,26 @@
+# ===== Archivos originales pesados (superan el límite de GitHub, NO se suben) =====
+*.mdb
+*.rar
+*.zip
+
+# Fotos originales sin optimizar (273 MB de BMP). Las optimizadas (fotos_web) sí se suben.
+export/fotos/
+
+# ===== Dependencias y temporales =====
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# ===== Config local y herramientas ajenas al proyecto =====
+.claude/
+pyghidra_mcp_projects/
+reports/
+
+# ===== Renders de QA (imágenes intermedias de la carpeta y la presentación) =====
+proyecto_carpeta/ag-*.png
+proyecto_carpeta/cp-*.png
+proyecto_presentacion/sf-*.png
+proyecto_presentacion/slide-*.png
+lo_profile*/

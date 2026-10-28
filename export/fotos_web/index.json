@@ -1,0 +1,624 @@
+{
+  "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS": [
+    {
+      "id": "39",
+      "src": "id39__P-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id39__P-1.jpg",
+      "size_kb": 19.6
+    },
+    {
+      "id": "40",
+      "src": "id40__P-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id40__P-1.jpg",
+      "size_kb": 92.4
+    },
+    {
+      "id": "41",
+      "src": "id41__P-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id41__P-1.jpg",
+      "size_kb": 13.2
+    },
+    {
+      "id": "43",
+      "src": "id43__P-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id43__P-1.jpg",
+      "size_kb": 19.2
+    },
+    {
+      "id": "44",
+      "src": "id44__P-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id44__P-1.jpg",
+      "size_kb": 19.6
+    },
+    {
+      "id": "50",
+      "src": "id50__P-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id50__P-1.jpg",
+      "size_kb": 12.6
+    },
+    {
+      "id": "51",
+      "src": "id51__ELECTR-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id51__ELECTR-1.jpg",
+      "size_kb": 14.2
+    },
+    {
+      "id": "52",
+      "src": "id52__ELECTR-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id52__ELECTR-1.jpg",
+      "size_kb": 16.3
+    },
+    {
+      "id": "53",
+      "src": "id53__ELECTR-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id53__ELECTR-1.jpg",
+      "size_kb": 12.1
+    },
+    {
+      "id": "55",
+      "src": "id55__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id55__TCNC-3.jpg",
+      "size_kb": 19.6
+    },
+    {
+      "id": "56",
+      "src": "id56__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id56__TCNC-3.jpg",
+      "size_kb": 15.0
+    },
+    {
+      "id": "57",
+      "src": "id57__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id57__TCNC-3.jpg",
+      "size_kb": 15.1
+    },
+    {
+      "id": "58",
+      "src": "id58__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id58__TCNC-3.jpg",
+      "size_kb": 40.0
+    },
+    {
+      "id": "59",
+      "src": "id59__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id59__TCNC-3.jpg",
+      "size_kb": 40.9
+    },
+    {
+      "id": "60",
+      "src": "id60__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id60__TCNC-3.jpg",
+      "size_kb": 19.6
+    },
+    {
+      "id": "61",
+      "src": "id61__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id61__TCNC-3.jpg",
+      "size_kb": 17.9
+    },
+    {
+      "id": "62",
+      "src": "id62__TCNC-3.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id62__TCNC-3.jpg",
+      "size_kb": 12.0
+    },
+    {
+      "id": "63",
+      "src": "id63__BH-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id63__BH-1.jpg",
+      "size_kb": 16.1
+    },
+    {
+      "id": "64",
+      "src": "id64__BH-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id64__BH-1.jpg",
+      "size_kb": 16.1
+    },
+    {
+      "id": "65",
+      "src": "id65__TCNC-2.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id65__TCNC-2.jpg",
+      "size_kb": 23.7
+    },
+    {
+      "id": "66",
+      "src": "id66__TCNC-2.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id66__TCNC-2.jpg",
+      "size_kb": 19.3
+    },
+    {
+      "id": "67",
+      "src": "id67__TCNC-2.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id67__TCNC-2.jpg",
+      "size_kb": 12.0
+    },
+    {
+      "id": "68",
+      "src": "id68__TCNC-2.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id68__TCNC-2.jpg",
+      "size_kb": 16.3
+    },
+    {
+      "id": "72",
+      "src": "id72__TCNC-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id72__TCNC-1.jpg",
+      "size_kb": 10.5
+    },
+    {
+      "id": "73",
+      "src": "id73__TCNC-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id73__TCNC-1.jpg",
+      "size_kb": 12.0
+    },
+    {
+      "id": "74",
+      "src": "id74__TCNC-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id74__TCNC-1.jpg",
+      "size_kb": 20.4
+    },
+    {
+      "id": "75",
+      "src": "id75__TCNC-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id75__TCNC-1.jpg",
+      "size_kb": 17.5
+    },
+    {
+      "id": "76",
+      "src": "id76__TCNC-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id76__TCNC-1.jpg",
+      "size_kb": 58.5
+    },
+    {
+      "id": "77",
+      "src": "id77__H-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id77__H-1.jpg",
+      "size_kb": 16.7
+    },
+    {
+      "id": "78",
+      "src": "id78__H-1.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id78__H-1.jpg",
+      "size_kb": 16.9
+    },
+    {
+      "id": "81",
+      "src": "id81__TCNC-2.bmp",
+      "dst": "09-REGISTRO_DE_DEFINICION_MANTENIM_PREVENTIVOS/id81__TCNC-2.jpg",
+      "size_kb": 16.3
+    }
+  ],
+  "1-001_MAQUINA": [
+    {
+      "id": "100",
+      "src": "id100__Cort-01.bmp",
+      "dst": "1-001_MAQUINA/id100__Cort-01.jpg",
+      "size_kb": 102.6
+    },
+    {
+      "id": "103",
+      "src": "id103__zzz.bmp",
+      "dst": "1-001_MAQUINA/id103__zzz.jpg",
+      "size_kb": 15.5
+    },
+    {
+      "id": "110",
+      "src": "id110__Torno_paralelo.bmp",
+      "dst": "1-001_MAQUINA/id110__Torno_paralelo.jpg",
+      "size_kb": 291.4
+    },
+    {
+      "id": "112",
+      "src": "id112.bmp",
+      "dst": "1-001_MAQUINA/id112.jpg",
+      "size_kb": 297.0
+    },
+    {
+      "id": "113",
+      "src": "id113.bmp",
+      "dst": "1-001_MAQUINA/id113.jpg",
+      "size_kb": 231.4
+    },
+    {
+      "id": "114",
+      "src": "id114__Limadora.bmp",
+      "dst": "1-001_MAQUINA/id114__Limadora.jpg",
+      "size_kb": 247.3
+    },
+    {
+      "id": "115",
+      "src": "id115__Limadora.bmp",
+      "dst": "1-001_MAQUINA/id115__Limadora.jpg",
+      "size_kb": 174.3
+    },
+    {
+      "id": "116",
+      "src": "id116__SERRUCHO.bmp",
+      "dst": "1-001_MAQUINA/id116__SERRUCHO.jpg",
+      "size_kb": 177.0
+    },
+    {
+      "id": "117",
+      "src": "id117__SOLDADORA_ELECTRICA.bmp",
+      "dst": "1-001_MAQUINA/id117__SOLDADORA_ELECTRICA.jpg",
+      "size_kb": 208.7
+    },
+    {
+      "id": "118",
+      "src": "id118.bmp",
+      "dst": "1-001_MAQUINA/id118.jpg",
+      "size_kb": 152.9
+    },
+    {
+      "id": "119",
+      "src": "id119.bmp",
+      "dst": "1-001_MAQUINA/id119.jpg",
+      "size_kb": 183.0
+    },
+    {
+      "id": "120",
+      "src": "id120.bmp",
+      "dst": "1-001_MAQUINA/id120.jpg",
+      "size_kb": 158.2
+    },
+    {
+      "id": "121",
+      "src": "id121.bmp",
+      "dst": "1-001_MAQUINA/id121.jpg",
+      "size_kb": 149.8
+    },
+    {
+      "id": "122",
+      "src": "id122__Compresor.bmp",
+      "dst": "1-001_MAQUINA/id122__Compresor.jpg",
+      "size_kb": 123.3
+    },
+    {
+      "id": "123",
+      "src": "id123.bmp",
+      "dst": "1-001_MAQUINA/id123.jpg",
+      "size_kb": 156.8
+    },
+    {
+      "id": "124",
+      "src": "id124__Torno.bmp",
+      "dst": "1-001_MAQUINA/id124__Torno.jpg",
+      "size_kb": 165.0
+    },
+    {
+      "id": "125",
+      "src": "id125__Fresadora_universal.bmp",
+      "dst": "1-001_MAQUINA/id125__Fresadora_universal.jpg",
+      "size_kb": 161.6
+    },
+    {
+      "id": "126",
+      "src": "id126__Fresa_universal.bmp",
+      "dst": "1-001_MAQUINA/id126__Fresa_universal.jpg",
+      "size_kb": 129.3
+    },
+    {
+      "id": "128",
+      "src": "id128__Alesadora.bmp",
+      "dst": "1-001_MAQUINA/id128__Alesadora.jpg",
+      "size_kb": 205.5
+    },
+    {
+      "id": "129",
+      "src": "id129__SERRUCHO.bmp",
+      "dst": "1-001_MAQUINA/id129__SERRUCHO.jpg",
+      "size_kb": 169.4
+    },
+    {
+      "id": "130",
+      "src": "id130__Fresadora_universal.bmp",
+      "dst": "1-001_MAQUINA/id130__Fresadora_universal.jpg",
+      "size_kb": 163.9
+    },
+    {
+      "id": "131",
+      "src": "id131.bmp",
+      "dst": "1-001_MAQUINA/id131.jpg",
+      "size_kb": 165.2
+    },
+    {
+      "id": "133",
+      "src": "id133__Fresadora_universal.bmp",
+      "dst": "1-001_MAQUINA/id133__Fresadora_universal.jpg",
+      "size_kb": 161.0
+    },
+    {
+      "id": "134",
+      "src": "id134__Plato_divisor.bmp",
+      "dst": "1-001_MAQUINA/id134__Plato_divisor.jpg",
+      "size_kb": 185.5
+    },
+    {
+      "id": "136",
+      "src": "id136__Fresadora_universal.bmp",
+      "dst": "1-001_MAQUINA/id136__Fresadora_universal.jpg",
+      "size_kb": 158.1
+    },
+    {
+      "id": "137",
+      "src": "id137__Fresadora_universal.bmp",
+      "dst": "1-001_MAQUINA/id137__Fresadora_universal.jpg",
+      "size_kb": 197.1
+    },
+    {
+      "id": "138",
+      "src": "id138.bmp",
+      "dst": "1-001_MAQUINA/id138.jpg",
+      "size_kb": 214.0
+    },
+    {
+      "id": "139",
+      "src": "id139.bmp",
+      "dst": "1-001_MAQUINA/id139.jpg",
+      "size_kb": 150.5
+    },
+    {
+      "id": "140",
+      "src": "id140__Torno.bmp",
+      "dst": "1-001_MAQUINA/id140__Torno.jpg",
+      "size_kb": 164.6
+    },
+    {
+      "id": "141",
+      "src": "id141.bmp",
+      "dst": "1-001_MAQUINA/id141.jpg",
+      "size_kb": 156.8
+    },
+    {
+      "id": "142",
+      "src": "id142.bmp",
+      "dst": "1-001_MAQUINA/id142.jpg",
+      "size_kb": 185.1
+    },
+    {
+      "id": "143",
+      "src": "id143__Maquina_de_corte_transversal.bmp",
+      "dst": "1-001_MAQUINA/id143__Maquina_de_corte_transversal.jpg",
+      "size_kb": 135.8
+    },
+    {
+      "id": "144",
+      "src": "id144__Rectificadora_transversal.bmp",
+      "dst": "1-001_MAQUINA/id144__Rectificadora_transversal.jpg",
+      "size_kb": 138.0
+    },
+    {
+      "id": "145",
+      "src": "id145.bmp",
+      "dst": "1-001_MAQUINA/id145.jpg",
+      "size_kb": 180.4
+    },
+    {
+      "id": "146",
+      "src": "id146.bmp",
+      "dst": "1-001_MAQUINA/id146.jpg",
+      "size_kb": 201.6
+    },
+    {
+      "id": "147",
+      "src": "id147__Fresadora_universal.bmp",
+      "dst": "1-001_MAQUINA/id147__Fresadora_universal.jpg",
+      "size_kb": 160.7
+    },
+    {
+      "id": "148",
+      "src": "id148.bmp",
+      "dst": "1-001_MAQUINA/id148.jpg",
+      "size_kb": 211.3
+    },
+    {
+      "id": "149",
+      "src": "id149.bmp",
+      "dst": "1-001_MAQUINA/id149.jpg",
+      "size_kb": 150.5
+    },
+    {
+      "id": "150",
+      "src": "id150.bmp",
+      "dst": "1-001_MAQUINA/id150.jpg",
+      "size_kb": 159.3
+    },
+    {
+      "id": "151",
+      "src": "id151__29482.bmp",
+      "dst": "1-001_MAQUINA/id151__29482.jpg",
+      "size_kb": 105.5
+    },
+    {
+      "id": "152",
+      "src": "id152.bmp",
+      "dst": "1-001_MAQUINA/id152.jpg",
+      "size_kb": 170.1
+    },
+    {
+      "id": "153",
+      "src": "id153.bmp",
+      "dst": "1-001_MAQUINA/id153.jpg",
+      "size_kb": 151.0
+    },
+    {
+      "id": "154",
+      "src": "id154__Torno.bmp",
+      "dst": "1-001_MAQUINA/id154__Torno.jpg",
+      "size_kb": 185.1
+    },
+    {
+      "id": "155",
+      "src": "id155__Torno.bmp",
+      "dst": "1-001_MAQUINA/id155__Torno.jpg",
+      "size_kb": 205.4
+    },
+    {
+      "id": "156",
+      "src": "id156__Torno.bmp",
+      "dst": "1-001_MAQUINA/id156__Torno.jpg",
+      "size_kb": 205.4
+    },
+    {
+      "id": "78",
+      "src": "id78__1298290219.jpg",
+      "dst": "1-001_MAQUINA/id78__1298290219.jpg",
+      "size_kb": 223.2
+    },
+    {
+      "id": "79",
+      "src": "id79__1298292889.jpg",
+      "dst": "1-001_MAQUINA/id79__1298292889.jpg",
+      "size_kb": 181.8
+    },
+    {
+      "id": "80",
+      "src": "id80__850310.jpg",
+      "dst": "1-001_MAQUINA/id80__850310.jpg",
+      "size_kb": 206.8
+    },
+    {
+      "id": "81",
+      "src": "id81__29684.jpg",
+      "dst": "1-001_MAQUINA/id81__29684.jpg",
+      "size_kb": 293.1
+    },
+    {
+      "id": "82",
+      "src": "id82__L_-_S_1860.jpg",
+      "dst": "1-001_MAQUINA/id82__L_-_S_1860.jpg",
+      "size_kb": 441.5
+    },
+    {
+      "id": "83",
+      "src": "id83__050911.jpg",
+      "dst": "1-001_MAQUINA/id83__050911.jpg",
+      "size_kb": 314.9
+    },
+    {
+      "id": "84",
+      "src": "id84__15150.jpg",
+      "dst": "1-001_MAQUINA/id84__15150.jpg",
+      "size_kb": 149.5
+    },
+    {
+      "id": "85",
+      "src": "id85__SERRUCHO.jpg",
+      "dst": "1-001_MAQUINA/id85__SERRUCHO.jpg",
+      "size_kb": 538.2
+    },
+    {
+      "id": "87",
+      "src": "id87__SOLDADORA_ELECTRICA.jpg",
+      "dst": "1-001_MAQUINA/id87__SOLDADORA_ELECTRICA.jpg",
+      "size_kb": 325.6
+    },
+    {
+      "id": "88",
+      "src": "id88__Torno_Alecop.jpg",
+      "dst": "1-001_MAQUINA/id88__Torno_Alecop.jpg",
+      "size_kb": 175.2
+    },
+    {
+      "id": "89",
+      "src": "id89__29689.jpg",
+      "dst": "1-001_MAQUINA/id89__29689.jpg",
+      "size_kb": 246.2
+    },
+    {
+      "id": "90",
+      "src": "id90__29685.jpg",
+      "dst": "1-001_MAQUINA/id90__29685.jpg",
+      "size_kb": 226.6
+    },
+    {
+      "id": "91",
+      "src": "id91__29683.jpg",
+      "dst": "1-001_MAQUINA/id91__29683.jpg",
+      "size_kb": 222.2
+    },
+    {
+      "id": "92",
+      "src": "id92__OXIACETILENO.jpg",
+      "dst": "1-001_MAQUINA/id92__OXIACETILENO.jpg",
+      "size_kb": 133.9
+    },
+    {
+      "id": "93",
+      "src": "id93__SOLDADORA.jpg",
+      "dst": "1-001_MAQUINA/id93__SOLDADORA.jpg",
+      "size_kb": 117.2
+    },
+    {
+      "id": "95",
+      "src": "id95__TORNO.jpg",
+      "dst": "1-001_MAQUINA/id95__TORNO.jpg",
+      "size_kb": 206.2
+    },
+    {
+      "id": "96",
+      "src": "id96__TORNO.jpg",
+      "dst": "1-001_MAQUINA/id96__TORNO.jpg",
+      "size_kb": 198.4
+    },
+    {
+      "id": "97",
+      "src": "id97__TORNO.jpg",
+      "dst": "1-001_MAQUINA/id97__TORNO.jpg",
+      "size_kb": 258.7
+    },
+    {
+      "id": "98",
+      "src": "id98__TORNO.jpg",
+      "dst": "1-001_MAQUINA/id98__TORNO.jpg",
+      "size_kb": 237.7
+    },
+    {
+      "id": "99",
+      "src": "id99__Wecheco_52.jpg",
+      "dst": "1-001_MAQUINA/id99__Wecheco_52.jpg",
+      "size_kb": 179.6
+    }
+  ],
+  "1-006_REGISTRO_DE_LOS_MANTENIMIENTOS": [
+    {
+      "id": "1",
+      "src": "id1__Torno_1.jpg",
+      "dst": "1-006_REGISTRO_DE_LOS_MANTENIMIENTOS/id1__Torno_1.jpg",
+      "size_kb": 441.5
+    },
+    {
+      "id": "40",
+      "src": "id40__Torno_1.jpg",
+      "dst": "1-006_REGISTRO_DE_LOS_MANTENIMIENTOS/id40__Torno_1.jpg",
+      "size_kb": 441.5
+    },
+    {
+      "id": "41",
+      "src": "id41__2.jpg",
+      "dst": "1-006_REGISTRO_DE_LOS_MANTENIMIENTOS/id41__2.jpg",
+      "size_kb": 132.7
+    }
+  ],
+  "33-ACTIVIDADES_DE_TALLER": [
+    {
+      "id": "1",
+      "src": "id1.bmp",
+      "dst": "33-ACTIVIDADES_DE_TALLER/id1.jpg",
+      "size_kb": 44.9
+    }
+  ],
+  "Copia_de_10-REGISTRO_DE_LOS_MANTENIMIENTOS": [
+    {
+      "id": "1",
+      "src": "id1__Torno_1.jpg",
+      "dst": "Copia_de_10-REGISTRO_DE_LOS_MANTENIMIENTOS/id1__Torno_1.jpg",
+      "size_kb": 441.5
+    },
+    {
+      "id": "40",
+      "src": "id40__Torno_1.jpg",
+      "dst": "Copia_de_10-REGISTRO_DE_LOS_MANTENIMIENTOS/id40__Torno_1.jpg",
+      "size_kb": 441.5
+    }
+  ]
+}

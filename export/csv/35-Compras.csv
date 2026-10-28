@@ -1,0 +1,11 @@
+Id,tipo de gasto,cantidad,precio por unidad,Fecha,Registro,Rotacion,Actividad
+1,Electrodo,100.0,300,2024-11-06 00:00:00,,Unión y conformado,Practica en soldadura
+10,platilla de angulo-radio,1.0,35000,2024-11-22 00:00:00,,Union y conformados,Corte por hilo
+2,Cinta aislador,10.0,500,2024-11-06 00:00:00,,Tecnologia del control,
+3,Calibre pie de rey,1.0,50000,2024-11-06 00:00:00,,Torneria,
+4,Torno cnc,1.0,40000000,2024-11-06 00:00:00,,CNC,Compra
+5,Codos para caños de gas,3.0,2799,2024-11-15 00:00:00,1,Unión y conformado,Armado de cuadro de prueba
+6,Caños,4.0,44008,2024-11-15 00:00:00,1,Unión y conformado,Armado de cuadro de prueba
+7,Cupla de reduccion de 3/4 media,2.0,5150,2024-11-15 00:00:00,1,Unión y conformado,Armado de cuadro de prueba
+8,Tee,1.0,8356,2024-11-15 00:00:00,1,Unión y conformado,Armado de cuadro de prueba
+9,Niple de conexión,0.0,9896,,1,Unión y conformado,Armado de cuadro de prueba

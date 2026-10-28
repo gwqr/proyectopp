@@ -1,0 +1,104 @@
+[
+ {
+  "fecha": "Martes 01/09",
+  "fase": "Relevamiento.",
+  "texto": " Arranque del proyecto. Analizamos el sistema de mantenimiento que usa hoy el taller de la escuela, hecho en Microsoft Access (una base .mdb de ~592 MB protegida con contraseña). Identificamos los problemas principales: es pesada y lenta, obliga a tener Access instalado, no se puede usar desde la web ni el celular y las fotos de los equipos están atrapadas como objetos OLE. Definimos el objetivo: migrar todo a una aplicación web moderna y más ágil.",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 02/09",
+  "fase": "Fase 1: Relevamiento.",
+  "texto": " Delimitación de las funciones clave del sistema MantenimientOK. Establecimos que la plataforma debe cubrir: órdenes de trabajo, mantenimiento preventivo, ficha de equipos con foto, stock de repuestos, registro de técnicos e indicadores de gestión (MTBF, MTTR, cumplimiento). Relevamos las 40 tablas de la base original para saber qué información conservar.",
+  "pia": null
+ },
+ {
+  "fecha": "Martes 08/09",
+  "fase": "Fase 2: Diseño.",
+  "texto": " Definición de la arquitectura del sistema: un backend liviano en Python (FastAPI) con base de datos SQLite y un frontend web con HTML, CSS y JavaScript. Elegimos esta combinación por ser rápida de levantar, no requerir Access ni servidores pesados y poder correr en cualquier computadora del taller.",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 09/09",
+  "fase": "Fase 2: Diseño.",
+  "texto": " Comienzo del diseño de la interfaz (UI). Definimos la identidad visual (estética industrial, prolija, con tema claro y oscuro) y los bocetos del panel principal con la navegación entre módulos: Panel, Órdenes de trabajo, Preventivo, Equipos, Repuestos, Técnicos y Reportes.",
+  "pia": null
+ },
+ {
+  "fecha": "Martes 15/09",
+  "fase": "Fase 2: Diseño.",
+  "texto": " Diseño de la vista de Órdenes de Trabajo (tablero Kanban con columnas Pendiente, En proceso y Cerradas) y de la ficha de Equipos con pestañas (información, motores, historial y preventivo). También bocetamos el Panel de control con sus indicadores y gráficos.",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 16/09",
+  "fase": "Fase 3: Desarrollo.",
+  "texto": " Configuración del entorno de programación y conexión con la base Access. Instalamos el driver ODBC (Microsoft Access Database Engine) y logramos abrir la base .mdb con su contraseña para leer todo su contenido sin tener Access instalado.",
+  "pia": null
+ },
+ {
+  "fecha": "Martes 22/09",
+  "fase": "Fase 3: Desarrollo.",
+  "texto": " Extracción de los datos reales. Exportamos las 40 tablas de la base original a archivos CSV y documentamos el esquema completo (columnas, tipos y relaciones). En total recuperamos 733 registros entre equipos, órdenes, repuestos, planes y técnicos.",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 23/09",
+  "fase": "Fase 3: Desarrollo.",
+  "texto": " Recuperación de las fotos de los equipos. Estaban guardadas como objetos OLE dentro de la base; programamos un extractor que reconstruye cada imagen (JPG y BMP) para recuperar 102 fotos y vincularlas a su equipo. Después las optimizamos para la web, bajando de 264 MB a 15 MB.",
+  "pia": null
+ },
+ {
+  "fecha": "Martes 29/09",
+  "fase": "Fase 3: Desarrollo.",
+  "texto": " Programación del backend con FastAPI y carga de los datos reales a una base SQLite. Construimos los endpoints de la API para todos los módulos (equipos, órdenes, preventivo, repuestos, técnicos y reportes).",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 30/09",
+  "fase": "Fase 3: Desarrollo.",
+  "texto": " Implementación de los módulos Órdenes de Trabajo (Kanban con arrastre), Equipos (ficha con foto real e historial), Preventivo (43 planes con generación de OT) y Repuestos (stock con alerta de mínimos).",
+  "pia": null
+ },
+ {
+  "fecha": "Martes 06/10",
+  "fase": "Fase 3: Desarrollo.",
+  "texto": " Programación del Panel de control con indicadores (OT abiertas y vencidas, cumplimiento, disponibilidad, MTBF y MTTR) y gráficos, más el módulo de Reportes. Rediseño visual completo: glassmorphism, iconografía propia, animaciones y buscador global.",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 07/10",
+  "fase": "Fase 4: Prueba e Implementación.",
+  "texto": " Pruebas del prototipo y despliegue de la página piloto en un hosting gratuito, quedando operativa con un enlace público para abrir desde el celular y la computadora. Verificamos todos los módulos con los datos reales del taller.",
+  "pia": null
+ },
+ {
+  "fecha": "Martes 13/10",
+  "fase": "Presentación del Proyecto.",
+  "texto": " Defensa y demostración de MantenimientOK ante el curso. Expusimos desde el planteo del problema (el Access viejo) hasta la solución, con una demo en vivo navegando la página: panel, equipos con foto, Kanban de órdenes y reportes.",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 14/10",
+  "fase": "Fase 5: Mejoras y Actualizaciones.",
+  "texto": " Planificación de las mejoras post-presentación. Diseñamos el sistema de usuarios con tres roles (administrador, profesor y alumno) y definimos qué puede ver y hacer cada uno, pensando especialmente en que sea fácil para los profes de taller.",
+  "pia": "COMIENZO PIA"
+ },
+ {
+  "fecha": "Martes 20/10",
+  "fase": "Fase 5: Mejoras y Actualizaciones.",
+  "texto": " Desarrollo del inicio de sesión por rol y de los paneles. Programamos el Panel docente (reportar fallas, subir fotos de equipos, subir manuales, pedir repuestos y asignar tareas) y el Panel de administración (aprobar profesores y resolver los pedidos de repuestos).",
+  "pia": null
+ },
+ {
+  "fecha": "Miércoles 21/10",
+  "fase": "Fase 5: Mejoras y Actualizaciones.",
+  "texto": " Panel del alumno con sus tareas y su pase digital de taller, asignación de tareas de profe a alumno, código QR por equipo, notificaciones y el asistente virtual Otto: un chatbot guiado que explica la página con lenguaje simple para los profes de mecánica que no manejan mucho la computadora.",
+  "pia": null
+ },
+ {
+  "fecha": "Martes 27/10",
+  "fase": "Entrega Final.",
+  "texto": " Pruebas finales de los tres roles, del asistente y del tour guiado. Desplegamos la versión final con un enlace público y dejamos lista la documentación. El proyecto cumple el objetivo: ordenar el mantenimiento del taller de forma ágil, moderna y accesible para toda la comunidad educativa.",
+  "pia": "CIERRE PIA"
+ }
+]

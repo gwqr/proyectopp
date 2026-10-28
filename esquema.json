@@ -1,0 +1,3210 @@
+{
+  "04-ACCION DE MANTENIM": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "ACCION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 15
+  },
+  "04-ACCION DE MANTENIM_2024": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "ACCION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 15
+  },
+  "05-CONDICION EXISTENTE": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "COND EXTISTENTE",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "METODO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "INSTRUMENTO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 37
+  },
+  "05-CONDICION EXISTENTE_2024": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "COND EXTISTENTE",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "METODO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "INSTRUMENTO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 37
+  },
+  "06-EJECUTA MANTENIM": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "EJECUTA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 6
+  },
+  "07-FREC MANTPREV": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "FREC MANTPREV",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 10
+  },
+  "08-RECOMENDACIONES": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "RECOMENDACIONES",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 5
+  },
+  "09-REGISTRO DE DEFINICION MANTENIM PREVENTIVOS": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "TIPO MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "DEFINE",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "CODMAQ",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "TIPO DESPERFECTO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "PARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "SUPBARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "SUBSUBPARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "TAREA MANTENIM PREV",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "DETALLE MANTENIM PREVENTIVO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "EJECUTA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "ESTADO DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      },
+      {
+        "name": "OBSERV GENERALES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 13
+      },
+      {
+        "name": "MAQASOC",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 14
+      },
+      {
+        "name": "FRECUENCIA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 15
+      },
+      {
+        "name": "TIEMPO ESTIMADO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 16
+      },
+      {
+        "name": "GRAFICO",
+        "type": "LONGBINARY",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 17
+      },
+      {
+        "name": "FECHA",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 18
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 43
+  },
+  "1-001 MAQUINA": {
+    "columns": [
+      {
+        "name": "IDMAQUINAS",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "CODMAQ",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "DENOMINACION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "SECTOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "MAQASOC",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "MARCA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "MODELO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "MANT-PREV",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "FECHA DE INSTALACION",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "OBSERVACION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "FILTRO MEJORA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "DESCRIPCION DE LA MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      },
+      {
+        "name": "OBJETIVO DE LA MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 13
+      },
+      {
+        "name": "ACCIONES TOMADAS",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 14
+      },
+      {
+        "name": "PERSONAL",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 15
+      },
+      {
+        "name": "FECHA DE LA MEJORA",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 16
+      },
+      {
+        "name": "IMAGEN",
+        "type": "LONGBINARY",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 17
+      },
+      {
+        "name": "gg",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 18
+      },
+      {
+        "name": "costo del activo",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 19
+      },
+      {
+        "name": "valor residual",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 20
+      },
+      {
+        "name": "vida útil",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 21
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 65
+  },
+  "1-002 DATOS DE REPUESTOS": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "NRO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "MARCA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "MODELO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "PARTE/COMPONENTE",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "ESPECIFIC REPUESTO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "CANT REQUERIDA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "CANT STOCK MIN",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "PROVEEDOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "CONTACTO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "TELEFONO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "DIRECCION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 85
+  },
+  "1-003 MAQUINAS-MOTORES": {
+    "columns": [
+      {
+        "name": "CODIGO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "DENOMINACION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "SECCION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "UBICACION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "DESCRIPCION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "MARCA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "TIPO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "NUMERO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "IP / IN",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "CONSUMO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "POTENCIA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "COSENO FI",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      },
+      {
+        "name": "RENDIMIENTO",
+        "type": "DOUBLE",
+        "size": 53,
+        "nullable": true,
+        "default": null,
+        "ordinal": 13
+      },
+      {
+        "name": "TENSION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 14
+      },
+      {
+        "name": "AMPERAJE",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 15
+      },
+      {
+        "name": "FASES",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 16
+      },
+      {
+        "name": "TEMPERATURA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 17
+      },
+      {
+        "name": "CONECCION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 18
+      },
+      {
+        "name": "FRECUENCIA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 19
+      },
+      {
+        "name": "RPM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 20
+      },
+      {
+        "name": "PROTECCION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 21
+      },
+      {
+        "name": "IP",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 22
+      },
+      {
+        "name": "INS",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 23
+      },
+      {
+        "name": "SERVICIO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 24
+      },
+      {
+        "name": "FORMA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 25
+      },
+      {
+        "name": "CLASE",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 26
+      },
+      {
+        "name": "CAT",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 27
+      },
+      {
+        "name": "REG",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 28
+      },
+      {
+        "name": "ISOL",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 29
+      },
+      {
+        "name": "ROL",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 30
+      },
+      {
+        "name": "PESO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 31
+      },
+      {
+        "name": "SCHUTZART",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 32
+      },
+      {
+        "name": "BOUGROBE",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 33
+      },
+      {
+        "name": "AUSFUHRUNG NACH",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 34
+      },
+      {
+        "name": "CAUDALES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 35
+      },
+      {
+        "name": "REGISTRO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 36
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 66
+  },
+  "1-004 Proveedores": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "RUBRO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "PROVEEDOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "CONTACTO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "TELEFONO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "DIRECCION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "e-mail",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "Pagina WEb",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "PROVEEDOR1",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "CONTACTO1",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "TELEFONO1",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "DIRECCION1",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 7
+  },
+  "1-005 EQUIPO DE TRABAJO": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "NOMBRE Y APELLIDO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "SECTOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "FUNCION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "E-MAIL",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "FECHA",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 10
+  },
+  "1-006 REGISTRO DE LOS MANTENIMIENTOS": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "NRO SOLIC",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "TIPO MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "FECHASOLIC",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "SECTOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "SOLICITA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "PRIORIDAD",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "Estado de la OM",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "CODMAQ",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "MAQASOC",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "TIPO DESPERFECTO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "CONDICION EXISTENTE",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      },
+      {
+        "name": "Jefe de Sección",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 13
+      },
+      {
+        "name": "PARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 14
+      },
+      {
+        "name": "SUPBARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 15
+      },
+      {
+        "name": "SUBSUBPARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 16
+      },
+      {
+        "name": "CAUSA DE LA CONDICION EXISTENTE",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 17
+      },
+      {
+        "name": "ACCION REALIZADA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 18
+      },
+      {
+        "name": "OBSERV PZAS",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 19
+      },
+      {
+        "name": "Htas utilizadas",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 20
+      },
+      {
+        "name": "Instrumentos utilizados",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 21
+      },
+      {
+        "name": "EJECUTA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 22
+      },
+      {
+        "name": "Estudiantes que intervienen",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 23
+      },
+      {
+        "name": "CARACTER DEL MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 24
+      },
+      {
+        "name": "OBSERV MO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 25
+      },
+      {
+        "name": "FECHA INI",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 26
+      },
+      {
+        "name": "HS INI",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 27
+      },
+      {
+        "name": "MIN INI",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 28
+      },
+      {
+        "name": "FECHA FIN",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 29
+      },
+      {
+        "name": "HS FIN",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 30
+      },
+      {
+        "name": "MIN FIN",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 31
+      },
+      {
+        "name": "HS HOM",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 32
+      },
+      {
+        "name": "HS MAQ",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 33
+      },
+      {
+        "name": "ESTADO DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 34
+      },
+      {
+        "name": "OBSERV GENERALES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 35
+      },
+      {
+        "name": "TIEMPO ACTIV",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 36
+      },
+      {
+        "name": "TIEMPO REALIZAR INF",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 37
+      },
+      {
+        "name": "Intervención de terceros",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 38
+      },
+      {
+        "name": "Imagen om",
+        "type": "LONGBINARY",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 39
+      },
+      {
+        "name": "FILTRO DE LA MEJORA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 40
+      },
+      {
+        "name": "DESCRIPCION MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 41
+      },
+      {
+        "name": "OBJETIVO MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 42
+      },
+      {
+        "name": "OTRAS ACCIONES TOMADAS",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 43
+      },
+      {
+        "name": "REGISTRA MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 44
+      },
+      {
+        "name": "CANT TECNICO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 45
+      },
+      {
+        "name": "CANT INSPECTOR",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 46
+      },
+      {
+        "name": "CANT OFICIAL",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 47
+      },
+      {
+        "name": "CANT OPERARIO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 48
+      },
+      {
+        "name": "CANT EXTERNO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 49
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 5
+  },
+  "11-RESP DEFINICION MANTENIMIENTO": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "RESPONSABLE DE DEFINICION DEL MANTENIMIENTO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 3
+  },
+  "12-RUBRO DESPERFECTO": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "RUBRO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 4
+  },
+  "13-Sectores": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "SECTOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 11
+  },
+  "14-TAREA MANTPREV": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "IDENTIFICACION",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "TAREA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 11
+  },
+  "15-TIPO DE MANTENIM": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "TIPO DE MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 3
+  },
+  "16-TIPO DE REPUESTOS": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "TIPO DE REPUESTO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 63
+  },
+  "17-CARACTER DEL MANTENIM": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "CARACTER DEL MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 2
+  },
+  "18-CONDICIONES DE SEGURIDAD": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "RIESGOS",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "PRECAUCIONES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 33
+  },
+  "20-funciones Habilitaciones": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "Descripción",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Archivo",
+        "type": "LONGBINARY",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Observaciones",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 3
+  },
+  "21-REGISTR DE INSTRUMENTOS": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "Cod instrumento",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Denominacion",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Rango",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "Apreciacion",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "Marca",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "Sector",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "Observaciones",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 6
+  },
+  "22-Normas": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "SIgla",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Denominacion",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Tipo",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "Ultima version",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "Observacion",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "ORIGEN",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "AHIVO PDF",
+        "type": "LONGBINARY",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 6
+  },
+  "23-Asignaturas": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "Asignatura",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Nive",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 47
+  },
+  "24-Rotaciones Taller": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "Rotación",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Año",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 3
+  },
+  "25-MARCA DE MOTORES": {
+    "columns": [
+      {
+        "name": "MARCA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 1
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 26
+  },
+  "26-TIPO DE MAQUINAS": {
+    "columns": [
+      {
+        "name": "DENOMINACION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 1
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 27
+  },
+  "27-CAMBIOS MEJORAS DE LA TABLA": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "OBJETO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "DESCRIPCION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "INTERVIENEN",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "FECHA",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "OBSERVACIONES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 4
+  },
+  "28-Tabla Capacitación": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "Denominación",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Ente",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Solicita",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "Fecha",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "Observación",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "Registró",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 3
+  },
+  "29-Aplicaciones web": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "Descripción",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Tipo",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Aplicación Web",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 33
+  },
+  "30-COSTOS DE LOS OM": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "NRO SOLIC",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "SECTOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "SOLICITA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "CARACTER DEL MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "CODMAQ",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "TIPO DESPERFECTO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "PARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "SUPBARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "SUBSUBPARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "CONDICION EXISTENTE",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "CAUSA DE LA CONDICION EXISTENTE",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      },
+      {
+        "name": "ACCION REALIZADA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 13
+      },
+      {
+        "name": "COSTO MO",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 14
+      },
+      {
+        "name": "OBSERV MO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 15
+      },
+      {
+        "name": "REP1",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 16
+      },
+      {
+        "name": "COSTO  REP1",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 17
+      },
+      {
+        "name": "REP2",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 18
+      },
+      {
+        "name": "COSTO  REP2",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 19
+      },
+      {
+        "name": "REP3",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 20
+      },
+      {
+        "name": "COSTO  REP3",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 21
+      },
+      {
+        "name": "REP4",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 22
+      },
+      {
+        "name": "COSTO  REP4",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 23
+      },
+      {
+        "name": "REP5",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 24
+      },
+      {
+        "name": "COSTO  REP5",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 25
+      },
+      {
+        "name": "REP6",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 26
+      },
+      {
+        "name": "COSTO  REP6",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 27
+      },
+      {
+        "name": "OBSERV PZAS",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 28
+      },
+      {
+        "name": "EJECUTA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 29
+      },
+      {
+        "name": "HS HOM",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 30
+      },
+      {
+        "name": "HS MAQ",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 31
+      },
+      {
+        "name": "FECHA INI",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 32
+      },
+      {
+        "name": "FECHA FIN",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 33
+      },
+      {
+        "name": "HS INI",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 34
+      },
+      {
+        "name": "MIN INI",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 35
+      },
+      {
+        "name": "HS FIN",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 36
+      },
+      {
+        "name": "MIN FIN",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 37
+      },
+      {
+        "name": "OBSERV GENERALES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 38
+      },
+      {
+        "name": "CANT TECNICO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 39
+      },
+      {
+        "name": "CANT INSPECTOR",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 40
+      },
+      {
+        "name": "CANT OFICIAL",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 41
+      },
+      {
+        "name": "CANT OPERARIO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 42
+      },
+      {
+        "name": "CANT EXTERNO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 43
+      },
+      {
+        "name": "HTAS OTROS",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 44
+      },
+      {
+        "name": "CANT OTROS",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 45
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 1
+  },
+  "32- Rotaciones Taller": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "Campo1",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "Campo2",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 16
+  },
+  "33-ACTIVIDADES DE TALLER": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "RUBRO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "DENOFINACION DE LA ACTIVIDAD",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "ROTACIONES/AREA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "FECHA",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "REGISTRA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "OBSERVACIONES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "IMAGENES",
+        "type": "LONGBINARY",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 6
+  },
+  "34-Ingresos": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "tipo de ingreso",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "cantidad",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Fecha",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "Registro",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 3
+  },
+  "35-Compras": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "tipo de gasto",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "cantidad",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "precio por unidad",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "Fecha",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "Registro",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "Rotacion",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "Actividad",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 10
+  },
+  "Copia de 1-004 Proveedores": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "RUBRO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "PROVEEDOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "CONTACTO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "TELEFONO",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "DIRECCION",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "e-mail",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "Pagina WEb",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 0
+  },
+  "Copia de 10-REGISTRO DE LOS MANTENIMIENTOS": {
+    "columns": [
+      {
+        "name": "Id",
+        "type": "COUNTER",
+        "size": 10,
+        "nullable": false,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "NRO SOLIC",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "TIPO MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Estado de la OM",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "PRIORIDAD",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      },
+      {
+        "name": "FECHASOLIC",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 6
+      },
+      {
+        "name": "SECTOR",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 7
+      },
+      {
+        "name": "SOLICITA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 8
+      },
+      {
+        "name": "CARACTER DEL MANTENIM",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 9
+      },
+      {
+        "name": "CODMAQ",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 10
+      },
+      {
+        "name": "TIPO DESPERFECTO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 11
+      },
+      {
+        "name": "PARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 12
+      },
+      {
+        "name": "SUPBARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 13
+      },
+      {
+        "name": "SUBSUBPARTE DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 14
+      },
+      {
+        "name": "CONDICION EXISTENTE",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 15
+      },
+      {
+        "name": "CAUSA DE LA CONDICION EXISTENTE",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 16
+      },
+      {
+        "name": "ACCION REALIZADA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 17
+      },
+      {
+        "name": "OBSERV MO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 18
+      },
+      {
+        "name": "OBSERV PZAS",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 19
+      },
+      {
+        "name": "EJECUTA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 20
+      },
+      {
+        "name": "HS HOM",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 21
+      },
+      {
+        "name": "HS MAQ",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 22
+      },
+      {
+        "name": "FECHA INI",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 23
+      },
+      {
+        "name": "FECHA FIN",
+        "type": "DATETIME",
+        "size": 19,
+        "nullable": true,
+        "default": null,
+        "ordinal": 24
+      },
+      {
+        "name": "HS INI",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 25
+      },
+      {
+        "name": "MIN INI",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 26
+      },
+      {
+        "name": "HS FIN",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 27
+      },
+      {
+        "name": "MIN FIN",
+        "type": "REAL",
+        "size": 24,
+        "nullable": true,
+        "default": null,
+        "ordinal": 28
+      },
+      {
+        "name": "ESTADO DEL EQUIPO",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 29
+      },
+      {
+        "name": "OBSERV GENERALES",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 30
+      },
+      {
+        "name": "MAQASOC",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 31
+      },
+      {
+        "name": "FILTRO DE LA MEJORA",
+        "type": "VARCHAR",
+        "size": 50,
+        "nullable": true,
+        "default": null,
+        "ordinal": 32
+      },
+      {
+        "name": "DESCRIPCION MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 33
+      },
+      {
+        "name": "OBJETIVO MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 34
+      },
+      {
+        "name": "OTRAS ACCIONES TOMADAS",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 35
+      },
+      {
+        "name": "REGISTRA MEJORA",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 36
+      },
+      {
+        "name": "CANT TECNICO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 37
+      },
+      {
+        "name": "CANT INSPECTOR",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 38
+      },
+      {
+        "name": "CANT OFICIAL",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 39
+      },
+      {
+        "name": "CANT OPERARIO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 40
+      },
+      {
+        "name": "CANT EXTERNO",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 41
+      },
+      {
+        "name": "Htas utilizadas",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 42
+      },
+      {
+        "name": "Instrumentos utilizados",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 43
+      },
+      {
+        "name": "Jefe de Sección",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 44
+      },
+      {
+        "name": "Estudiantes que intervienen",
+        "type": "LONGCHAR",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 45
+      },
+      {
+        "name": "TIEMPO ACTIV",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 46
+      },
+      {
+        "name": "TIEMPO REALIZAR INF",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 47
+      },
+      {
+        "name": "Intervención de terceros",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 48
+      },
+      {
+        "name": "Imagen om",
+        "type": "LONGBINARY",
+        "size": 1073741823,
+        "nullable": true,
+        "default": null,
+        "ordinal": 49
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 2
+  },
+  "Switchboard Items": {
+    "columns": [
+      {
+        "name": "SwitchboardID",
+        "type": "INTEGER",
+        "size": 10,
+        "nullable": true,
+        "default": null,
+        "ordinal": 1
+      },
+      {
+        "name": "ItemNumber",
+        "type": "SMALLINT",
+        "size": 5,
+        "nullable": true,
+        "default": null,
+        "ordinal": 2
+      },
+      {
+        "name": "ItemText",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 3
+      },
+      {
+        "name": "Command",
+        "type": "SMALLINT",
+        "size": 5,
+        "nullable": true,
+        "default": null,
+        "ordinal": 4
+      },
+      {
+        "name": "Argument",
+        "type": "VARCHAR",
+        "size": 255,
+        "nullable": true,
+        "default": null,
+        "ordinal": 5
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "row_count": 1
+  }
+}
